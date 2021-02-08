@@ -1,0 +1,20 @@
+@import "menu.css";
+@import "content.css";
+@import "sidebar.css";
+@import "content_tables.css";
+@import "footer.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+}
+
+.sidebar_menu:hover .submenu{
+    display: block;
+}
+
+.hidden{
+    display: none;
+}

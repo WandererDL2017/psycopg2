@@ -1,0 +1,70 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    min-width: 400px;
+    height: auto;
+    margin: 0;
+    padding: 10px 20px;
+}
+
+.sidebar ul{
+    margin: 0;
+}
+
+.sidebar ul li{
+    list-style: none;
+    padding: 5px 10px;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 0;
+}
+
+.icon_list{
+    background-image: url(../images/icons/list-24px.svg);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    padding: 0 15px;
+}
+
+.icon_todo{
+    background-image: url(../images/icons/todo-24px.svg);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    padding: 0 15px;
+}
+
+.icon_users{
+    background-image: url(../images/icons/users-24px.svg);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    padding: 0 15px;
+}
+
+.icon_other{
+    background-image: url(../images/icons/other-24px.svg);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    padding: 0 15px;
+}
+
+.submenu{
+    padding: 5px 15px;
+    font-size: 12px;
+}
+
+.submenu__hidden{
+    display: none;
+}

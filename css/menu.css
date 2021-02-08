@@ -1,0 +1,31 @@
+
+.menu_top{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: auto;
+    height: 100px;
+    padding: 10px 20px;
+}
+
+.menu_top ul{
+    padding: 0; 
+}
+
+.menu_top ul li{
+    display: inline;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.menu_top ul li a{
+    text-decoration: none;
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #000000
+}
+
+.menu_top ul li a:hover{
+    color: #676767
+}
